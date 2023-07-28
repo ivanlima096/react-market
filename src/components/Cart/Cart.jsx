@@ -13,6 +13,9 @@ export default function Cart() {
 
   return (
     <section className={`cart ${isCartVisible ? "cart-active" : ""} `}>
+      <div>
+        {(cartItems.length > 0 ? "" : "Poxa! Você não achou nada que goste ainda?")}
+      </div>
       <div className="cart-items">
         {cartItems.map((cartItem) => (
           <CartItem key={cartItem.id} data={cartItem} />

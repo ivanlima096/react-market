@@ -1,5 +1,5 @@
 .header {
-  background-color: #FFF159;
+  background-color: #264653;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -10,4 +10,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem;
+}
+
+.links a {
+  color: #e9c46a;
+  padding: .3rem;
 }
